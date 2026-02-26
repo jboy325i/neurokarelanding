@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy & Notice of Privacy Practices — NeuroKare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: #1a5c4a;
+    --teal-light: #2a7a62;
+    --blush: #f5c5b8;
+    --cream: #faf8f5;
+    --dark: #111;
+    --mid: #555;
+    --light: #999;
+    --border: #e8e4de;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--dark); }
+
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    padding: 20px 48px;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(250,248,245,0.95); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-logo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px; font-weight: 400; color: var(--teal); text-decoration: none;
+  }
+  .nav-back {
+    background: transparent; border: 1.5px solid var(--teal); color: var(--teal);
+    padding: 8px 20px; border-radius: 100px; font-family: 'DM Sans', sans-serif;
+    font-size: 13px; font-weight: 500; cursor: pointer; text-decoration: none;
+    transition: all 0.2s;
+  }
+  .nav-back:hover { background: var(--teal); color: white; }
+
+  .page-wrap { max-width: 800px; margin: 0 auto; padding: 140px 48px 100px; }
+
+  .page-label {
+    font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--teal); font-weight: 500; margin-bottom: 16px;
+  }
+  h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px; font-weight: 300; line-height: 1.1; margin-bottom: 12px;
+  }
+  .effective-date { font-size: 13px; color: var(--light); margin-bottom: 48px; }
+
+  .notice-box {
+    background: #f0f7f4; border-left: 4px solid var(--teal);
+    border-radius: 0 12px 12px 0; padding: 24px 28px; margin-bottom: 48px;
+  }
+  .notice-box strong { display: block; color: var(--teal); font-size: 15px; margin-bottom: 8px; }
+  .notice-box p { font-size: 14px; color: var(--mid); line-height: 1.7; }
+
+  .toc {
+    background: white; border: 1px solid var(--border); border-radius: 16px;
+    padding: 28px 32px; margin-bottom: 56px;
+  }
+  .toc h3 { font-size: 14px; font-weight: 500; margin-bottom: 16px; color: var(--teal); }
+  .toc ol { padding-left: 20px; }
+  .toc li { margin-bottom: 8px; }
+  .toc a { color: var(--teal); font-size: 14px; text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+
+  .section { margin-bottom: 48px; }
+  .section h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px; font-weight: 400; margin-bottom: 16px;
+    padding-bottom: 12px; border-bottom: 1px solid var(--border);
+    color: var(--teal);
+  }
+  .section h3 { font-size: 16px; font-weight: 500; margin: 24px 0 10px; }
+  .section p { font-size: 15px; color: var(--mid); line-height: 1.8; margin-bottom: 14px; }
+  .section ul, .section ol { padding-left: 24px; margin-bottom: 14px; }
+  .section li { font-size: 15px; color: var(--mid); line-height: 1.8; margin-bottom: 6px; }
+  .section strong { color: var(--dark); }
+
+  .rights-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px;
+  }
+  .right-card {
+    background: white; border: 1px solid var(--border); border-radius: 12px; padding: 20px;
+  }
+  .right-card h4 { font-size: 14px; font-weight: 500; color: var(--teal); margin-bottom: 8px; }
+  .right-card p { font-size: 13px; color: var(--mid); line-height: 1.6; margin: 0; }
+
+  .contact-box {
+    background: var(--teal); color: white; border-radius: 20px; padding: 36px;
+    margin-top: 48px;
+  }
+  .contact-box h3 { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 300; margin-bottom: 16px; }
+  .contact-box p { font-size: 14px; color: rgba(255,255,255,0.8); line-height: 1.7; margin-bottom: 8px; }
+  .contact-box a { color: var(--blush); }
+
+  .disclaimer-banner {
+    background: #fff8e1; border: 1px solid #f0d060; border-radius: 12px;
+    padding: 16px 20px; margin-bottom: 48px;
+    font-size: 13px; color: #7a6000; line-height: 1.6;
+  }
+
+  footer {
+    background: #f0f7f4; color: var(--mid);
+    padding: 32px 48px; text-align: center; font-size: 13px;
+    border-top: 1px solid var(--border); margin-top: 80px;
+  }
+  footer a { color: var(--teal); text-decoration: none; }
+
+  @media (max-width: 768px) {
+    nav { padding: 16px 24px; }
+    .page-wrap { padding: 100px 24px 60px; }
+    h1 { font-size: 36px; }
+    .rights-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">NeuroKare</a>
+  <a href="index.html" class="nav-back">← Back to Home</a>
+</nav>
+
+<div class="page-wrap">
+
+  <div class="page-label">Legal</div>
+  <h1>Privacy Policy & Notice of Privacy Practices</h1>
+  <div class="effective-date">Effective Date: March 1, 2026 · Last Updated: March 1, 2026</div>
+
+  <div class="notice-box">
+    <strong>THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.</strong>
+    <p>This document serves as both our Website Privacy Policy and our HIPAA Notice of Privacy Practices as required by the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and the Health Information Technology for Economic and Clinical Health (HITECH) Act.</p>
+  </div>
+
+  <div class="disclaimer-banner">
+    <strong>Attorney Review Notice:</strong> This privacy policy is provided as a general framework and has not been reviewed by a licensed healthcare attorney. NeuroKare recommends obtaining legal counsel to review this document before collecting any patient information or launching clinical services.
+  </div>
+
+  <div class="toc">
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="#who-we-are">Who We Are</a></li>
+      <li><a href="#information-we-collect">Information We Collect</a></li>
+      <li><a href="#how-we-use">How We Use Your Information</a></li>
+      <li><a href="#hipaa-uses">HIPAA: Permitted Uses & Disclosures of PHI</a></li>
+      <li><a href="#your-rights">Your HIPAA Rights</a></li>
+      <li><a href="#data-security">Data Security & Safeguards</a></li>
+      <li><a href="#telehealth">Telehealth & State Licensing</a></li>
+      <li><a href="#third-parties">Third-Party Services</a></li>
+      <li><a href="#minors">Minors</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact & Complaints</a></li>
+    </ol>
+  </div>
+
+  <!-- 1 -->
+  <div class="section" id="who-we-are">
+    <h2>1. Who We Are</h2>
+    <p>NeuroKare ("we," "us," or "our") is a medical clinic operating at the intersection of neuroinflammation, chronic pain, and neuroplastic recovery. Our physician, Dr. John Lee, M.D., is a dual board-certified physician providing telemedicine services through the NeuroReset Program.</p>
+    <p>As a healthcare provider offering clinical services, NeuroKare is considered a <strong>Covered Entity</strong> under HIPAA and is required to protect the privacy and security of your Protected Health Information (PHI).</p>
+    <p><strong>Contact Information:</strong><br>
+    NeuroKare Medical Clinic<br>
+    Email: info[at]neurokare.com<br>
+    Website: neurokare.com</p>
+  </div>
+
+  <!-- 2 -->
+  <div class="section" id="information-we-collect">
+    <h2>2. Information We Collect</h2>
+    <h3>Information You Provide Directly</h3>
+    <ul>
+      <li>Name, email address, phone number, and billing information when you purchase a program</li>
+      <li>Health-related responses submitted through our candidate assessment quiz</li>
+      <li>Medical history, symptoms, and health information shared during consultations with Dr. Lee</li>
+      <li>Communications you send to us via email or through our platform</li>
+    </ul>
+    <h3>Information Collected Automatically</h3>
+    <ul>
+      <li>IP address, browser type, and device information</li>
+      <li>Pages visited and time spent on our website</li>
+      <li>Referring URLs and general geographic location</li>
+    </ul>
+    <h3>Protected Health Information (PHI)</h3>
+    <p>Any individually identifiable health information — including information about your physical or mental health condition, healthcare services provided to you, or payment for healthcare — constitutes PHI under HIPAA. We treat all such information with the highest level of protection.</p>
+  </div>
+
+  <!-- 3 -->
+  <div class="section" id="how-we-use">
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the information we collect to:</p>
+    <ul>
+      <li>Provide, manage, and improve our medical services and the NeuroReset Program</li>
+      <li>Process payments and manage your account</li>
+      <li>Communicate with you about your care, appointments, and program progress</li>
+      <li>Comply with legal and regulatory obligations</li>
+      <li>Protect the safety of our patients and staff</li>
+      <li>Analyze and improve our website and services (using anonymized, aggregated data only)</li>
+    </ul>
+    <p>We do <strong>not</strong> sell your personal information or PHI to third parties. We do not use your PHI for marketing purposes without your explicit written authorization.</p>
+  </div>
+
+  <!-- 4 -->
+  <div class="section" id="hipaa-uses">
+    <h2>4. HIPAA: Permitted Uses & Disclosures of PHI</h2>
+    <p>Under HIPAA, we are permitted to use and disclose your PHI without your written authorization for the following purposes:</p>
+    <h3>Treatment</h3>
+    <p>We may use and disclose your PHI to provide, coordinate, or manage your healthcare and any related services. This includes sharing information with other healthcare providers involved in your care, if applicable.</p>
+    <h3>Payment</h3>
+    <p>We may use and disclose your PHI to obtain payment for services rendered, including submitting claims and managing billing.</p>
+    <h3>Healthcare Operations</h3>
+    <p>We may use and disclose your PHI for our internal operations, including quality assessment, training, compliance, and business management activities.</p>
+    <h3>As Required by Law</h3>
+    <p>We will disclose your PHI when required to do so by federal, state, or local law, including in response to a court order, subpoena, or lawful request by public health authorities.</p>
+    <h3>Other Permitted Disclosures</h3>
+    <ul>
+      <li>To avert a serious threat to health or safety</li>
+      <li>For public health activities as required by law</li>
+      <li>To report abuse, neglect, or domestic violence as required by law</li>
+      <li>For workers' compensation purposes</li>
+      <li>To coroners, medical examiners, or funeral directors as permitted by law</li>
+    </ul>
+    <h3>Uses Requiring Your Written Authorization</h3>
+    <p>All other uses and disclosures of your PHI — including most marketing activities, sale of PHI, and disclosures of psychotherapy notes — require your specific written authorization, which you may revoke at any time.</p>
+  </div>
+
+  <!-- 5 -->
+  <div class="section" id="your-rights">
+    <h2>5. Your HIPAA Rights</h2>
+    <p>You have the following rights regarding your Protected Health Information:</p>
+    <div class="rights-grid">
+      <div class="right-card">
+        <h4>Right to Access</h4>
+        <p>You have the right to inspect and obtain a copy of your PHI that we maintain in a designated record set.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to Amend</h4>
+        <p>You may request that we correct or amend your PHI if you believe it is inaccurate or incomplete.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to Restrict</h4>
+        <p>You may request restrictions on how we use or disclose your PHI for treatment, payment, or operations.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to Confidential Communications</h4>
+        <p>You may request that we communicate with you about your PHI in a specific way or at a specific location.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to an Accounting</h4>
+        <p>You may request a list of certain disclosures of your PHI that we have made in the past six years.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to a Copy of This Notice</h4>
+        <p>You have the right to receive a paper copy of this Notice of Privacy Practices at any time upon request.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to File a Complaint</h4>
+        <p>You may file a complaint with us or with the U.S. Department of Health and Human Services if you believe your privacy rights have been violated.</p>
+      </div>
+      <div class="right-card">
+        <h4>Right to Opt Out of Fundraising</h4>
+        <p>You have the right to opt out of receiving fundraising communications from us at any time.</p>
+      </div>
+    </div>
+    <p style="margin-top:20px;">To exercise any of these rights, please contact us in writing at info[at]neurokare.com. We will respond to your request within 30 days.</p>
+  </div>
+
+  <!-- 6 -->
+  <div class="section" id="data-security">
+    <h2>6. Data Security & Safeguards</h2>
+    <p>We implement administrative, physical, and technical safeguards to protect your PHI as required by the HIPAA Security Rule, including:</p>
+    <ul>
+      <li>Encryption of PHI in transit and at rest</li>
+      <li>Access controls limiting PHI access to authorized personnel only</li>
+      <li>Regular security risk assessments and audits</li>
+      <li>Employee training on HIPAA privacy and security requirements</li>
+      <li>Business Associate Agreements (BAAs) with all vendors who handle PHI on our behalf</li>
+    </ul>
+    <p>In the event of a breach of unsecured PHI, we will notify you and the appropriate authorities as required by the HIPAA Breach Notification Rule within 60 days of discovering the breach.</p>
+  </div>
+
+  <!-- 7 -->
+  <div class="section" id="telehealth">
+    <h2>7. Telehealth & State Licensing</h2>
+    <p>NeuroKare provides telemedicine services through Dr. John Lee, M.D. Telemedicine services are subject to state-specific licensing and practice requirements. By enrolling in our program, you confirm that you are located in a state where Dr. Lee is licensed to practice medicine at the time of your consultation.</p>
+    <p>It is your responsibility to ensure that telemedicine services from NeuroKare are permitted in your state of residence. NeuroKare reserves the right to decline service to patients located in states where we are not authorized to provide care.</p>
+  </div>
+
+  <!-- 8 -->
+  <div class="section" id="third-parties">
+    <h2>8. Third-Party Services</h2>
+    <p>We work with the following categories of third-party service providers who may have access to your information in the course of providing services to us. Where required by HIPAA, we have entered into Business Associate Agreements with these vendors:</p>
+    <ul>
+      <li><strong>Payment Processing:</strong> Square, Inc. — for processing program payments</li>
+      <li><strong>Website Hosting:</strong> Vercel — for hosting our website</li>
+      <li><strong>Telehealth Platform:</strong> The platform used for video consultations with Dr. Lee</li>
+      <li><strong>AI Assistant:</strong> The NeuroReset AI Assistant platform included with your program</li>
+    </ul>
+    <p>These third parties are contractually obligated to protect your information and use it only for the purposes for which it was shared. We are not responsible for the privacy practices of third-party websites linked from our site.</p>
+  </div>
+
+  <!-- 9 -->
+  <div class="section" id="minors">
+    <h2>9. Minors</h2>
+    <p>Our services are intended for adults aged 18 and older. We do not knowingly collect personal information from individuals under the age of 18. If we become aware that we have collected information from a minor, we will promptly delete it. If you believe we have inadvertently collected information from a minor, please contact us immediately.</p>
+  </div>
+
+  <!-- 10 -->
+  <div class="section" id="changes">
+    <h2>10. Changes to This Policy</h2>
+    <p>We reserve the right to change this Privacy Policy and Notice of Privacy Practices at any time. We are required by law to abide by the terms of the notice currently in effect. If we make material changes, we will post the updated notice on our website and, where required, notify you directly.</p>
+    <p>We encourage you to review this policy periodically. Your continued use of our services after changes are posted constitutes your acceptance of those changes.</p>
+  </div>
+
+  <!-- 11 -->
+  <div class="section" id="contact">
+    <h2>11. Contact & Complaints</h2>
+    <p>If you have questions about this Privacy Policy, wish to exercise your rights, or believe your privacy rights have been violated, please contact us:</p>
+    <div class="contact-box">
+      <h3>NeuroKare Privacy Officer</h3>
+      <p>You may contact our Privacy Officer at any time with questions, concerns, or complaints.</p>
+      <p><strong style="color:white;">Email:</strong> <a href="#">privacy[at]neurokare.com</a></p>
+      <p style="margin-top:16px;"><strong style="color:white;">File a Complaint with HHS:</strong></p>
+      <p>You also have the right to file a complaint with the U.S. Department of Health and Human Services Office for Civil Rights if you believe your HIPAA privacy rights have been violated. You will not be retaliated against for filing a complaint.</p>
+      <p><a href="https://www.hhs.gov/ocr/privacy/hipaa/complaints/" target="_blank">www.hhs.gov/ocr/privacy/hipaa/complaints</a></p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 <strong style="color:var(--teal);">NeuroKare</strong> · <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms & Conditions</a></p>
+  <p style="margin-top:8px;font-size:11px;">This privacy policy is a general framework and should be reviewed by a licensed healthcare attorney prior to launch.</p>
+</footer>
+
+</body>
+</html>
