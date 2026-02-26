@@ -1,7 +1,7 @@
 var squareLinks = {
-  essential: 'https://squareup.com/YOUR_ESSENTIAL_LINK',
-  signature:  'https://squareup.com/YOUR_SIGNATURE_LINK',
-  elite:      'https://squareup.com/YOUR_ELITE_LINK'
+  essential: 'https://square.link/u/tdTfNKHw',
+  signature:  'https://square.link/u/Hwm4jzFP',
+  elite:      'https://square.link/u/KeZ8Oqcz'
 };
 
 var questions = [
